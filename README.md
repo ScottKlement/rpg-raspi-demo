@@ -10,7 +10,8 @@ This is the sample code that Scott Klement uses when presenting about using a Ra
 * IBM HTTP Server (powered by Apache)
 
 ## Installation on the Raspberry Pi
-* Download the code to a directory such as `rpg-raspi-demo` on the Raspberry Pi.
+Download the code to a directory such as `rpg-raspi-demo` on the Raspberry Pi, and install dependencies by typing the following:
+* `git clone https://github.com/ScottKlement/rpg-raspi-demo.git`
 * `cd rpg-raspi-demo`
 * `npm install`
 * Update the URL in start.js so that it is appropriate for your enviroment
