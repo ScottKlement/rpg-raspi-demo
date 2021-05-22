@@ -1,0 +1,36 @@
+     A* Display File for the RASPIR RPG program.
+     A*   
+     A* To compile:
+     A*     CRTDSPF FILE(RASPID) SRCFILE(QDDSSRC)
+     A*
+     A                                      INDARA
+     A                                      DSPSIZ(24 80 *DS3)
+     A          R RASPI1
+     A                                      CA03(03)
+     A                                      CA08(08)
+     A                                      CA09(09)
+     A                                      CA10(10)
+     A                                      PRINT
+     A                                      FRCDTA
+     A                                      INVITE
+     A                                  2 26'Raspberry Pi Integration Test'
+     A                                      DSPATR(HI)
+     A                                  6  7'F8'
+     A                                      DSPATR(HI)
+     A                                  6 10'= Toggle Relay'
+     A                                 10  7'Toggle LED:'
+     A            COLOR          1A  B 10 19DSPATR(HI)
+     A                                 10 24'1 = Red'
+     A                                 11 24'2 = Blue'
+     A                                 12 24'3 = Green'
+     A                                 13 24'4 = Yellow'
+     A                                 14 24'5 = White'
+     A                                 16  7'Door is'
+     A            DOORSTATE      6A  O 16 15
+     A  99                                  DSPATR(RI)
+     A                                      DSPATR(HI)
+     A                                 24  2'F3=Exit'
+     A                                      COLOR(BLU)
+     A                                  8  7'F10'
+     A                                      DSPATR(HI)
+     A                                  8 11'= Flash all LEDs' 
